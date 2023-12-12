@@ -1,0 +1,101 @@
+@media screen and (max-width:991px){
+   h3{
+      font-size: 1.2rem;
+   }
+   .nav-toggle{
+      display: block;
+      margin-right: 1.1rem;
+   }
+   .nav-toggle i{
+      font-size: 25px;
+   }
+   .main-nav{
+      overflow: initial;
+   }
+   .nav-links{
+      position: absolute;
+      background-color: #fff;
+      top: 100%;
+      left: -100%;
+      width: 100%;
+      padding-block: 20px;
+      transition: .2s ease-out;
+   }
+   .nav-links.active{
+      left: 0;
+   }
+   .nav-links ul{
+      flex-direction: column;
+   }
+   /* * example section */
+   .example-card{
+      width: calc(50% - 10px);
+      height: 180px;
+   }
+   .example-area{
+      gap: 20px;
+   }
+   /* * Cta seciton */
+   .cta-section{
+      padding-block: 80px;
+   }
+}
+
+@media screen and (max-width:767px){
+   h3{
+      font-size: 1rem;
+   }
+   .primary-button{
+      width: 100%;
+   }
+   .header-section{
+      flex-direction: column-reverse;
+   }
+   .header-left{
+      max-width: 100vw;
+      text-align: center;
+   }
+   .feature-card{
+      min-width:calc(50% - 10px);
+   }
+   .big-feature-container{
+      flex-direction: column;
+   }
+   .footer-container{
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+   }
+   
+}
+
+@media screen and (max-width:479px){
+   :root{
+      --padding-inline-section:10px;
+   }
+   h1{
+      font-size: 2rem;
+   }
+   h2{
+      font-size: 1rem;
+   }
+   h3{
+      font-size: 1.2rem;
+   }
+   p{
+      font-size: 1rem;
+   }
+   .primary-button{
+      width: 100%;
+   }
+   .feature-card{
+      min-width:100%;
+      gap: 10px;
+   }
+   .example-card{
+      width: 100%;
+   }
+   .example-card .card-text{
+      text-align: center;
+   }
+}
